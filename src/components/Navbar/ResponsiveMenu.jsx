@@ -12,7 +12,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
       } fixed bottom-0 top-0 z-20 flex h-screen w-[75%] flex-col justify-between bg-white dark:bg-gray-900 dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 md:hidden rounded-r-xl shadow-md`}
     >
       <div className="card">
-        <div className="flex items-center justify-start gap-3">
+        <div className="flex justify-start items-center gap-3">
           <FaUserCircle size={50} />
           <div>
             <h1>Hello User</h1>
@@ -26,7 +26,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
                 <Link
                   to={data.link}
                   onClick={() => setShowMenu(false)}
-                  className="mb-5 inline-block"
+                  className="inline-block mb-5"
                 >
                   {data.name}
                 </Link>
@@ -37,7 +37,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
       </div>
       <div className="footer">
         <h1>
-          Made with ❤ by <a href="https://dilshad-ahmed.github.io/">Dilshad</a>{" "}
+          Made with ❤ by <a href="https://github.com/AnkitSangode">Ankit</a>{" "}
         </h1>
       </div>
     </div>
